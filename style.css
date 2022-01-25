@@ -45,7 +45,7 @@ section{
     padding: 5px;
     background-color: rgb(71 173 241);
     color: white;
-    border-color: solid black;
+    border: 1px solid rgb(71 173 241);
     border-radius: 4px;  
     cursor: pointer;  
 }
@@ -54,7 +54,7 @@ section{
     padding: 5px;
     background-color: white;
     color: grey;
-    border-color: solid black;
+    border: 1px solid grey;
     border-radius: 4px;
     cursor: pointer;
 
@@ -74,8 +74,6 @@ li{
 
 
 .check{
-    height: 25px;
-    width: 25px;
     color: green;
     border: 2px solid green;
     border-radius: 50%;
@@ -83,8 +81,6 @@ li{
 }
 
 .ballot{
-    height: 25px;
-    width: 25px;
     color: red;
     border: 2px solid red;
     border-radius: 50%;
